@@ -17,4 +17,5 @@ El principal problema es que el reparto de los viajes se debe realizar a mano to
 ## Documentación adicional
 
 [Licencia](LICENSE)
+
 [Documentacion adicional](documentacion_adicional)
