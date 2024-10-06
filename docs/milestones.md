@@ -16,11 +16,12 @@ Cuando sea aprobado por el product manager (los compañeros de clase y el profes
 
 ### HUs asociadas
 
-- [HU1](user_stories.md#hu1-profesor-con-coche)
-- [HU2](user_stories.md#hu2-profesor-sin-coche)
+- [HU1](user_stories.md#hu1-profesor-conductor)
+- [HU2](user_stories.md#hu2-profesor-pasajero)
 - [HU3](user_stories.md#hu3-administrador-asignacion-manual-de-conductores-y-pasajeros)
 - [HU4](user_stories.md#hu4-administrador-asignacion-automatica-de-conductores-y-pasajeros)
 - [HU5](user_stories.md#hu5-administrador-estadisticas)
+- [HU6](user_stories.md#hu6-profesor-notificaciones)
 
 ## [M1] Milestone 1: Implementación de la asignación manual de conductores y pasajeros
 
