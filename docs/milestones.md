@@ -2,13 +2,14 @@
 
 ## [M0] Milestone 0: Modelado del problema
 
-### Objetivo
-
-Analizar las [historias de usuario](user_stories.md) para identificar los conceptos clave del dominio del problema y plasmarlos en código.
+Se busca analizar las [historias de usuario](user_stories.md) para identificar los conceptos clave del dominio del problema y plasmarlos en código.
 
 ### Entregable
 
-Código que modele los conceptos clave del dominio del problema.
+Código que modele los conceptos clave del dominio del problema. Algunas de las entidades que se pueden identificar son:
+- `Profesor`: con atributos como nombre, disponibilidad para conducir, horarios de entrada y salida, kilómetros conducidos, y vehículo propio (si aplica).
+- `PuntoDeEncuentro`: almacena información de la ubicación y la hora de encuentro.
+- `Asignación`: almacena información de la asignación de conductores y pasajeros.
 
 ### Viabilidad
 
@@ -25,8 +26,6 @@ Cuando sea aprobado por el product manager (los compañeros de clase y el profes
 
 ## [M1] Milestone 1: Implementación de la asignación manual de conductores y pasajeros
 
-### Objetivo
-
 Implementar la funcionalidad de asignación manual de conductores y pasajeros.
 
 ### Entregable
@@ -35,7 +34,7 @@ Código que permita crear, modificar y consultar la asignación manual de conduc
 
 ### Viabilidad
 
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+Cuando el código pase los tests donde se compruebe que se pueden crear, modificar y consultar asignaciones manuales de conductores y pasajeros.
 
 ### HUs asociadas
 
@@ -43,17 +42,15 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 ## [M2] Milestone 2: Implementación de la asignación automática de conductores y pasajeros
 
-### Objetivo
-
-Implementar la funcionalidad de asignación automática de conductores y pasajeros. Esta asignación debe ser equitativa y tener en cuenta la disponibilidad de los profesores.
+Se busca implementar la posibilidad de asignar de forma automática conductores y pasajeros.
 
 ### Entregable
 
-Código que permita asignar conductores y pasajeros de forma automática.
+Código que permita asignar conductores y pasajeros de forma automática, en base a un algoritmo que garantice que la asignación sea equitativa y eficiente.
 
 ### Viabilidad
 
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+Cuando el código entregado pase los tests donde se compruebe que se pueden asignar conductores y pasajeros de forma automática. Además, se debe comprobar que la asignación automática es equitativa y eficiente.
 
 ### HUs asociadas
 
@@ -61,9 +58,7 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 ## [M3] Milestone 3: Los profesores pueden consultar si les toca llevar el coche
 
-### Objetivo
-
-Implementar la funcionalidad de consulta de si a un profesor le toca llevar el coche, y en caso afirmativo, qué pasajeros le han sido asignados, a qué hora debe recogerlos y en qué punto de encuentro.
+Un profesor debe ser capaz de comprobar si le toca llevar el coche, y en caso afirmativo, qué pasajeros le han sido asignados, a qué hora debe recogerlos y en qué punto de encuentro.
 
 ### Entregable
 
@@ -71,7 +66,7 @@ Código que permita a un profesor consultar la información necesaria para organ
 
 ### Viabilidad
 
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+Cuando los tests de aceptación comprueben que se puede consultar la información necesaria para organizar el viaje.
 
 ### HUs asociadas
 
@@ -79,9 +74,7 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 ## [M4] Milestone 4: Los profesores pueden consultar si les toca ser pasajeros
 
-### Objetivo
-
-Implementar la funcionalidad de consulta de si a un profesor le toca ser pasajero, y en caso afirmativo, quién le recogerá y a qué hora debe estar en el punto de encuentro acordado.
+Un profesor debe ser capaz de comprobar si le toca ser pasajero, y en caso afirmativo, quién es el conductor, a qué hora debe estar en el punto de encuentro y qué otros pasajeros le acompañarán.
 
 ### Entregable
 
@@ -89,7 +82,7 @@ Código que permita a un profesor consultar la información necesaria para ser r
 
 ### Viabilidad
 
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+Cuando los tests de aceptación comprueben que se puede consultar la información necesaria para ser recogido como pasajero.
 
 ### HUs asociadas
 
@@ -99,17 +92,15 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 ## [M5] Milestone 5: Estadísticas
 
-### Objetivo
-
-Implementar la funcionalidad de consulta de estadísticas sobre el uso de los coches. Se debe poder consultar cuántos días ha llevado el coche cada profesor y cuántos días ha sido pasajero.
+Se busca implementar la funcionalidad de consultar estadísticas sobre el uso de los coches.
 
 ### Entregable
 
-Código que permita consultar estadísticas sobre el uso de los coches.
+Código que permita consultar estadísticas sobre el uso de los coches. Por ejemplo, cuántos kilómetros ha conducido cada profesor, cuántos días ha llevado el coche, cuántos días ha sido pasajero, etc.
 
 ### Viabilidad
 
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+Cuando los tests de aceptación comprueben que se pueden consultar las estadísticas sobre el uso de los coches.
 
 ### HUs asociadas
 
@@ -117,17 +108,15 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 ## [M6] Milestone 6: Notificaciones
 
-### Objetivo
-
-Implementar la funcionalidad de notificaciones. Los profesores deben recibir notificaciones cuando les toque llevar el coche o ser pasajeros. Deben poder configurar las notificaciones para que les lleguen a una hora concreta del día anterior.
+Se buscar implementar la funcionalidad de notificaciones. 
 
 ### Entregable
 
-Código que permita enviar notificaciones a los profesores.
+Código que permita enviar notificaciones a los profesores. Los profesores deben recibir notificaciones cuando les toque llevar el coche o ser pasajeros. Deben poder configurar las notificaciones para que les lleguen a una hora concreta del día anterior.
 
 ### Viabilidad
 
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+Cuando los tests de aceptación comprueben que se pueden enviar notificaciones a los profesores.
 
 ### HUs asociadas
 
