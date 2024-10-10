@@ -41,7 +41,25 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 - [HU3](user_stories.md#hu3-administrador-asignacion-manual-de-conductores-y-pasajeros)
 
-## [M2] Milestone 2: Los profesores pueden consultar si les toca llevar el coche
+## [M2] Milestone 2: Implementación de la asignación automática de conductores y pasajeros
+
+### Objetivo
+
+Implementar la funcionalidad de asignación automática de conductores y pasajeros. Esta asignación debe ser equitativa y tener en cuenta la disponibilidad de los profesores.
+
+### Entregable
+
+Código que permita asignar conductores y pasajeros de forma automática.
+
+### Viabilidad
+
+Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
+
+### HUs asociadas
+
+- [HU4](user_stories.md#hu4-administrador-asignacion-automatica-de-conductores-y-pasajeros)
+
+## [M3] Milestone 3: Los profesores pueden consultar si les toca llevar el coche
 
 ### Objetivo
 
@@ -59,7 +77,7 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 
 - [HU1](user_stories.md#hu1-profesor-conductor)
 
-## [M3] Milestone 3: Los profesores pueden consultar si les toca ser pasajeros
+## [M4] Milestone 4: Los profesores pueden consultar si les toca ser pasajeros
 
 ### Objetivo
 
@@ -76,24 +94,6 @@ Cuando los tests de aceptación de las historias de usuario asociadas a esta fun
 ### HUs asociadas
 
 - [HU2](user_stories.md#hu2-profesor-pasajero)
-
-## [M4] Milestone 4: Implementación de la asignación automática de conductores y pasajeros
-
-### Objetivo
-
-Implementar la funcionalidad de asignación automática de conductores y pasajeros. Esta asignación debe ser equitativa y tener en cuenta la disponibilidad de los profesores.
-
-### Entregable
-
-Código que permita asignar conductores y pasajeros de forma automática.
-
-### Viabilidad
-
-Cuando los tests de aceptación de las historias de usuario asociadas a esta funcionalidad pasen correctamente.
-
-### HUs asociadas
-
-- [HU4](user_stories.md#hu4-administrador-asignacion-automatica-de-conductores-y-pasajeros)
 
 # Milestones adicionales
 
