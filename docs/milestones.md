@@ -6,14 +6,24 @@ Se busca analizar las [historias de usuario](user_stories.md) para identificar l
 
 ### Entregable
 
-Código que modele los conceptos clave del dominio del problema. Algunas de las entidades que se pueden identificar son:
-- `Profesor`: con atributos como nombre, disponibilidad para conducir, horarios de entrada y salida, kilómetros conducidos, y vehículo propio (si aplica).
-- `PuntoDeEncuentro`: almacena información de la ubicación y la hora de encuentro.
-- `Asignación`: almacena información de la asignación de conductores y pasajeros.
+Un modelo conceptual del sistema que represente los elementos clave del dominio y sus interacciones. Esto incluye:
+- Identificación de las entidades principales involucradas en el problema, tales como profesores, puntos de encuentro y asignaciones.
+
+- Definición de las relaciones entre estas entidades, como la asignación de profesores a conductores o pasajeros.
+
+- Un diseño estructurado que permita sentar las bases para la futura implementación de estas entidades en código.
+
+Este modelo conceptual no debe centrarse en la implementación exacta (clases y atributos específicos), sino en la creación de una estructura flexible que guíe las decisiones de implementación en los siguientes hitos.
 
 ### Viabilidad
 
-Cuando sea aprobado por el product manager (los compañeros de clase y el profesor).
+El modelo conceptual debe cumplir con los siguientes requisitos para ser aprobado:
+
+- Cobertura completa del dominio del problema: El modelo debe representar todas las entidades y relaciones descritas en las historias de usuario asociadas. Las entidades clave, como los profesores, puntos de encuentro y asignaciones, deben estar claramente definidas, junto con sus relaciones.
+
+- Claridad en las relaciones: Las interacciones entre las entidades (por ejemplo, la asignación de un profesor a un coche o la relación entre un punto de encuentro y los trayectos) deben estar claramente especificadas y reflejar los escenarios descritos en las historias de usuario.
+
+- Posibilidad de evolución: El diseño debe permitir la inclusión de futuras mejoras, como la automatización de la asignación de conductores basada en criterios como kilómetros recorridos o el número de viajes.
 
 ### HUs asociadas
 
