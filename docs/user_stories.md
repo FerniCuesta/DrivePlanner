@@ -1,25 +1,13 @@
 # User stories
 
-## [HU1] Profesor conductor
+## [HU1] Mercedes: Profesora que quiere conocer los repartos de coches y pasajeros
 
-Como profesor con coche quiero saber si me toca llevar el coche para organizar mi día. Si me toca llevar el coche, quiero saber qué pasajeros me han asignado para recogerlos en el punto de encuentro acordado.
+Soy Mercedes, como profesora quiero saber si me toca llevar el coche para organizar mi día. Si me toca llevar el coche, quiero saber qué pasajeros me han asignado para recogerlos en el punto de encuentro acordado. Si no me toca llevar el coche, quiero saber quién es el conductor y qué otros pasajeros me acompañarán. En ambos casos, quiero saber a qué hora debo estar en el punto de encuentro, y la ubicación de este.
 
-## [HU2] Profesor pasajero
+## [HU2] Elisa: reparto automático de coches y profesores
 
-Como profesor pasajero quiero saber quién me recogerá y a qué hora debo estar en el punto de encuentro acordado.
+Soy Elisa, la profesora encargada de realizar el reparto de los viajes. Actualmente realizo los repartos a mano y envío una foto por el grupo que de WhatsApp de profesores. Quiero ser capaz de asignar conductores y pasajeros de forma automática y equitativa en base a los horarios y coches disponibles.
 
-## [HU3] Administrador: asignación manual de conductores y pasajeros
+## [HU3] Elisa: Estadísticas sobre los viajes
 
-Como administrador quiero poder asignar manualmente conductores y pasajeros. Quiero poder consultar la lista de conductores y pasajeros para cada día de la semana. Quiero poder modificar la asignación de conductores y pasajeros en cualquier momento.
-
-## [HU4] Administrador: asignación automática de conductores y pasajeros
-
-Como administrador quiero ser capaz de asignar conductores y pasajeros de forma automática. Quiero que esta asignación sea equitativa y que se tenga en cuenta la disponibilidad de los profesores.
-
-## [HU5] Administrador: estadísticas
-
-Como administrador quiero poder consultar estadísticas sobre el uso de los coches. Quiero saber cuántos días ha llevado el coche cada profesor y cuántos días ha sido pasajero.
-
-## [HU6] Profesor: notificaciones
-
-Como profesor quiero recibir notificaciones cuando me toque llevar el coche o ser pasajero. Quiero poder configurar las notificaciones para que me lleguen a una hora concreta del día anterior.
+Soy Elisa, como encargada del sistema de reparto, quiero que todos los profesores puedan consultar estadísticas sobre el uso de los coches. De esta forma todos pueden comprobar que el reparto es equitativo.
